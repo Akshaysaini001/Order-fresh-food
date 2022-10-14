@@ -1,0 +1,165 @@
+/* css reset */
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+/* NAVIGATION BAR  */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+/* LOGO AND IMAGE  */
+
+#logo{
+    margin:3px 18px;
+    border-radius: 12px;
+}
+
+#logo img{
+    height: 65px;
+    margin: 10px 11px;
+ 
+}
+/* NAVIGATION BAR AND LIST STYLING */
+ #navbar ul{
+     display: flex;
+}
+#navbar
+{
+    position: relative;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+#navbar ul li a 
+{
+    color: white;
+    display: block;
+    padding: 3px 15px;
+    border-radius: 9px;
+    text-decoration: none;
+
+}
+
+/* #navbar ul li a:hover 
+{
+    color: black;
+    background-color: white;
+}  */
+
+#navbar ul li a:hover{
+    color: black;
+    background-color:rgb(171, 195, 171) ;
+}
+/* HOME SECTION EDIT */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 14px 244px;
+/* height: 600px; */
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background-color: black;
+    background: url(main.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-size: 2.2em;
+}
+/* #home p{
+    color: white;
+} */
+#home p{
+    color: white;
+
+font-size: 1.4rem;
+text-align: center;
+}
+/* SERVICE CLASS OR VARIETY OF FOOD CLASS */
+#services{
+    margin: 34px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+/* #services .box{
+    border: 2px solid brown;
+} */
+/* #services .box img{
+    height: 160px;
+} */
+#services .box{ 
+    border: 2px solid brown;
+    padding: 20px;
+    margin: 120px 5px;
+    border-radius: 28px;
+    background: #ebe4e4;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+/* UTILITY CLASS */
+
+.h-primary{
+    font-size: 2.2rem;
+    padding: 9px;
+   
+}
+
+h-secondary{
+    font-size: 2.2rem;
+    padding: 9px;
+}
+.btn{
+    font-size: 1.1rem;
+/* width: 40px; */
+    color: white;
+    padding: 8px 26px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: rgb(143, 134, 134);
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(171, 195, 171);
+}
+
+.center{
+    text-align: center;
+}
+
+
+#logo:hover{
+    color: black;
+    background-color: rgb(171, 195, 171);
+}
